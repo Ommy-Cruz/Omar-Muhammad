@@ -2,75 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meet Mr. Omar Muhammad – Creative Visionary & Branding Strategist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr. Omar Muhammad – Creative Visionary & Branding Strategist</title>
   <style>
+    :root {
+      --primary: #007BFF;
+      --dark: #222;
+      --light-bg: #f4f4f4;
+      --white: #ffffff;
+    }
+
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f4;
       margin: 0;
       padding: 0;
+      background: var(--light-bg);
       color: #333;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-      background: white;
-    }
-    h2 {
-      color: #007BFF;
-      margin-top: 2rem;
-    }
-    p {
       line-height: 1.6;
     }
+
+    header {
+      background: var(--dark);
+      color: var(--white);
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.7rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: var(--white);
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 2rem;
+      font-size: 1.6rem;
+    }
+
     ul {
       padding-left: 1.2rem;
+      margin-top: 0.5rem;
     }
+
     .catalog-table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
+      font-size: 0.95rem;
     }
+
     .catalog-table th, .catalog-table td {
-      border: 1px solid #ccc;
-      padding: 0.75rem;
+      border: 1px solid #ddd;
+      padding: 0.85rem;
+    }
+
+    .catalog-table th {
+      background-color: var(--primary);
+      color: var(--white);
       text-align: left;
     }
-    .catalog-table th {
-      background-color: #007BFF;
-      color: white;
-    }
+
     .contact-btn {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background-color: #007BFF;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--primary);
       color: white;
       text-decoration: none;
       border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
+
+    .contact-btn:hover {
+      background-color: #0056b3;
+    }
+
     footer {
-      background: #222;
+      background: var(--dark);
       color: white;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
+      margin-top: 2rem;
     }
+
     @media (max-width: 600px) {
-      h1 {
-        font-size: 1.8rem;
+      header h1 {
+        font-size: 2rem;
+      }
+      .container {
+        padding: 1.5rem;
       }
     }
   </style>
@@ -82,7 +118,7 @@
   <p>Creative Designer | Branding Strategist | Visionary Entrepreneur</p>
 </header>
 
-<div class="container">
+<main class="container">
   <h2>👋 Meet Me</h2>
   <p>
     My name is Omar Muhammad, commonly referred to as <strong>Mr. Omar</strong>. I am a 21-year-old Kenyan creative and strategic professional with nearly five years of hands-on experience in the branding and graphic design industry.
@@ -145,22 +181,4 @@
     I am building a hybrid business that blends physical branding services with e-commerce and delivery. I'm also leveling up in marketing, public speaking, and confidence-building because I believe personal growth is essential for business impact.
   </p>
 
-  <h2>🌍 Interests</h2>
-  <p>
-    Outside of design, I enjoy singing, reading, traveling, and embracing diverse cultures. I'm fluent in English and Swahili and deeply guided by my Islamic faith.
-  </p>
-
-  <h2>📫 Let’s Connect</h2>
-  <p>
-    Whether you're seeking design services or collaboration, feel free to reach out!
-  </p>
-  <a class="contact-btn" href="mailto:youremail@example.com">📧 Email Me</a>
-</div>
-
-<footer>
-  © 2025 Mr. Omar Muhammad – All Rights Reserved.
-</footer>
-
-</body>
-</html>
-
+  <h2>🌍 In
