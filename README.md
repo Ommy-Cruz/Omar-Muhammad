@@ -2,40 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mr. Omar Muhammad – Creative Visionary & Branding Strategist</title>
   <style>
     :root {
       --primary: #007BFF;
       --dark: #222;
-      --light-bg: #f4f4f4;
+      --light: #f4f4f4;
       --white: #ffffff;
     }
 
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: var(--light-bg);
+      background: var(--light);
       color: #333;
-      line-height: 1.6;
     }
 
     header {
       background: var(--dark);
       color: var(--white);
-      padding: 2.5rem 1rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
 
     header h1 {
-      font-size: 2.7rem;
-      margin-bottom: 0.5rem;
+      margin: 0;
+      font-size: 2.5rem;
     }
 
     header p {
-      font-size: 1.2rem;
-      color: #ccc;
+      font-size: 1.1rem;
+      color: #bbb;
     }
 
     .container {
@@ -43,14 +42,17 @@
       margin: 2rem auto;
       padding: 2rem;
       background: var(--white);
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
       border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
     h2 {
       color: var(--primary);
-      margin-top: 2rem;
-      font-size: 1.6rem;
+      margin-top: 1.5rem;
+    }
+
+    p {
+      line-height: 1.6;
     }
 
     ul {
@@ -62,34 +64,32 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
-      font-size: 0.95rem;
     }
 
-    .catalog-table th, .catalog-table td {
-      border: 1px solid #ddd;
-      padding: 0.85rem;
+    .catalog-table th,
+    .catalog-table td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
     }
 
     .catalog-table th {
       background-color: var(--primary);
-      color: var(--white);
-      text-align: left;
+      color: white;
     }
 
     .contact-btn {
       display: inline-block;
       margin-top: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      background-color: var(--primary);
+      padding: 0.7rem 1.5rem;
+      background: var(--primary);
       color: white;
       text-decoration: none;
       border-radius: 5px;
-      font-weight: bold;
-      transition: background 0.3s ease;
     }
 
     .contact-btn:hover {
-      background-color: #0056b3;
+      background: #0056b3;
     }
 
     footer {
@@ -97,8 +97,8 @@
       color: white;
       text-align: center;
       padding: 1rem;
-      font-size: 0.9rem;
       margin-top: 2rem;
+      font-size: 0.9rem;
     }
 
     @media (max-width: 600px) {
@@ -106,7 +106,7 @@
         font-size: 2rem;
       }
       .container {
-        padding: 1.5rem;
+        padding: 1rem;
       }
     }
   </style>
@@ -121,16 +121,16 @@
 <main class="container">
   <h2>👋 Meet Me</h2>
   <p>
-    My name is Omar Muhammad, commonly referred to as <strong>Mr. Omar</strong>. I am a 21-year-old Kenyan creative and strategic professional with nearly five years of hands-on experience in the branding and graphic design industry.
+    My name is Omar Muhammad, commonly referred to as <strong>Mr. Omar</strong>. I am a 21-year-old Kenyan creative and strategic professional with nearly five years of hands-on experience in branding and graphic design.
   </p>
 
   <h2>🎨 What I Do</h2>
   <p>I specialize in:</p>
   <ul>
     <li>Brand identity design</li>
-    <li>Product packaging (e.g. Agrumi di Sicilia cosmetics)</li>
-    <li>Print materials (flyers, company profiles, property booklets)</li>
-    <li>Digital content for social media & marketing campaigns</li>
+    <li>Product packaging (e.g., Agrumi di Sicilia cosmetics)</li>
+    <li>Print materials (flyers, profiles, booklets)</li>
+    <li>Digital content for social media & campaigns</li>
   </ul>
 
   <h2>💼 Service Catalog & Pricing</h2>
@@ -145,27 +145,27 @@
     <tbody>
       <tr>
         <td>Brand Identity Design</td>
-        <td>Logo, color palette, typography, and full brand guidelines</td>
+        <td>Logo, color palette, typography, full brand system</td>
         <td>$40/hr</td>
       </tr>
       <tr>
         <td>Packaging Design</td>
-        <td>Labels, boxes, wrappers with print-ready files</td>
+        <td>Labels, wrappers, and print-ready dielines</td>
         <td>$35/hr</td>
       </tr>
       <tr>
         <td>Marketing Collateral</td>
-        <td>Flyers, brochures, business cards, and posters</td>
+        <td>Flyers, brochures, posters, business cards</td>
         <td>$30/hr</td>
       </tr>
       <tr>
         <td>Digital Content</td>
-        <td>Social media graphics, banners, and promo visuals</td>
+        <td>Social media visuals, banners, promotions</td>
         <td>$25/hr</td>
       </tr>
       <tr>
         <td>Print Coordination</td>
-        <td>Setting up print files, sourcing, and quality checks</td>
+        <td>Print setup, vendor sourcing, quality checks</td>
         <td>$20/hr</td>
       </tr>
     </tbody>
@@ -173,12 +173,29 @@
 
   <h2>💡 Projects & Passion</h2>
   <p>
-    I've had the honor of working with organizations like Aerolabz, PipePulse Solutions Ltd, and the developers of Parkwave Tower. My mission is to empower startups and growing businesses through creative solutions rooted in strategy and purpose.
+    I’ve worked with brands like Aerolabz, PipePulse Solutions Ltd, and Parkwave Tower. My mission is to help startups and creators shine through purpose-driven design.
   </p>
 
   <h2>🚀 Ambitions</h2>
   <p>
-    I am building a hybrid business that blends physical branding services with e-commerce and delivery. I'm also leveling up in marketing, public speaking, and confidence-building because I believe personal growth is essential for business impact.
+    I’m building a hybrid branding business combining physical services and e-commerce. I’m also investing in my growth through marketing, public speaking, and confidence-building.
   </p>
 
-  <h2>🌍 In
+  <h2>🌍 Interests</h2>
+  <p>
+    Outside work, I enjoy singing, reading, traveling, and learning about cultures. I speak English and Swahili fluently, and my Islamic faith keeps me grounded.
+  </p>
+
+  <h2>📫 Let’s Connect</h2>
+  <p>
+    Looking for a creative partner or consultant? Reach out anytime.
+  </p>
+  <a class="contact-btn" href="mailto:youremail@example.com">📧 Email Me</a>
+</main>
+
+<footer>
+  © 2025 Mr. Omar Muhammad – All Rights Reserved.
+</footer>
+
+</body>
+</html>
